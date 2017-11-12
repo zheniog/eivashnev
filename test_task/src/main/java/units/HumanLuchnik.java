@@ -25,6 +25,11 @@ public class HumanLuchnik  extends Luchnik {
     }
 
     @Override
+    protected void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
     protected String getLukAttack() {
         return lukAttack;
     }

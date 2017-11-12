@@ -16,7 +16,6 @@ public class HumanVoin extends Voin {
         setLogger(logger);
     }
 
-
     @Override
     protected int getDamage() {
         return damage;

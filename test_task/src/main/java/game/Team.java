@@ -3,6 +3,7 @@ package game;
 import org.apache.log4j.Logger;
 import units.*;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
@@ -14,8 +15,8 @@ import java.util.concurrent.ThreadLocalRandom;
  */
 public class Team {
 
-    private List<Unit> privelegeUnits = new LinkedList<>();
-    private List<Unit> units = new LinkedList<>();
+    private List<Unit> privelegeUnits = new ArrayList<>();
+    private List<Unit> units = new ArrayList<>();
 
     private Race race;
     private int numberOfLuckniks = 3;
